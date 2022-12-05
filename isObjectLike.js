@@ -1,3 +1,4 @@
+// @wzm 2022-12-5
 /**
  * Checks if `value` is object-like. A value is object-like if it's not `null`
  * and has a `typeof` result of "object".
