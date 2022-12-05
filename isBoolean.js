@@ -1,3 +1,4 @@
+// @wzm 2022-12-5
 import getTag from './.internal/getTag.js'
 import isObjectLike from './isObjectLike.js'
 
