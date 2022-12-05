@@ -1,3 +1,4 @@
+// @wzm 2022-12-5
 /**
  * Checks if `value` is classified as a `Function` object.
  *
