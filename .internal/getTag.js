@@ -1,3 +1,4 @@
+// @wzm 2022-12-5
 const toString = Object.prototype.toString
 
 /**
