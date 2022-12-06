@@ -1,3 +1,4 @@
+// @wzm 2022-12-6
 /**
  * Creates a function that invokes `func`, with the `this` binding and arguments
  * of the created function, while it's called less than `n` times. Subsequent
