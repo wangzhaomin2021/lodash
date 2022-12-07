@@ -1,3 +1,4 @@
+// @wzm 2022-12-7
 import isSymbol from './isSymbol.js'
 
 /**
