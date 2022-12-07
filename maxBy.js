@@ -26,6 +26,7 @@ function maxBy(array, iteratee) {
   for (const value of array) {
     const current = iteratee(value)
 
+    // current === current 判断非NaN symbol不能比较
     if (current != null && (computed === undefined
       ? (current === current && !isSymbol(current))
       : (current > computed)
