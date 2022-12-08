@@ -1,3 +1,4 @@
+// @wzm 2022-12-8
 import baseSum from './.internal/baseSum.js'
 
 /** Used as references for various `Number` constants. */
