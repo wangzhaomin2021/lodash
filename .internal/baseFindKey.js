@@ -14,7 +14,7 @@ function baseFindKey(collection, predicate, eachFunc) {
   eachFunc(collection, (value, key, collection) => {
     if (predicate(value, key, collection)) {
       result = key
-      return false
+      return false // return false will break the loop
     }
   })
   return result
