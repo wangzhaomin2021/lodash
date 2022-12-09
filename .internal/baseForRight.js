@@ -16,6 +16,7 @@ function baseForRight(object, iteratee, keysFunc) {
 
   while (length--) {
     const key = props[length]
+    // iteratee return false break the loop
     if (iteratee(iterable[key], key, iterable) === false) {
       break
     }
