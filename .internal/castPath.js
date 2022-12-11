@@ -1,3 +1,4 @@
+// @wzm 2022-12-11
 import isKey from './isKey.js'
 import stringToPath from './stringToPath.js'
 
