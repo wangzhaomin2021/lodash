@@ -1,3 +1,4 @@
+// @wzm 2022-12-11
 import isSymbol from '../isSymbol.js'
 
 /** Used as references for various `Number` constants. */
@@ -14,7 +15,7 @@ function toKey(value) {
   if (typeof value === 'string' || isSymbol(value)) {
     return value
   }
-  const result = `${value}`
+  const result = `${value}` // `${-0}` --> '0'
   return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result
 }
 
