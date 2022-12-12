@@ -1,3 +1,4 @@
+// @wzm 2022-12-12
 import isIndex from './.internal/isIndex.js'
 
 /**
@@ -24,7 +25,7 @@ function nth(array, n) {
   if (!length) {
     return
   }
-  n += n < 0 ? length : 0
+  n += n < 0 ? length : 0  // n < 0 then n = n + length
   return isIndex(n, length) ? array[n] : undefined
 }
 
