@@ -1,3 +1,4 @@
+// @wzm 2022-12-14
 import isFlattenable from './isFlattenable.js'
 
 /**
@@ -24,7 +25,7 @@ function baseFlatten(array, depth, predicate, isStrict, result) {
       if (depth > 1) {
         // Recursively flatten arrays (susceptible to call stack limits).
         baseFlatten(value, depth - 1, predicate, isStrict, result)
-      } else {
+      } else { // depth === 1 一次push，一定程度上减少递归调用次数
         result.push(...value)
       }
     } else if (!isStrict) {
