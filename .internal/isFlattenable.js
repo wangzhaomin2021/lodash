@@ -1,3 +1,4 @@
+// @wzm 2022-12-14
 import isArguments from '../isArguments.js'
 
 /** Built-in value reference. */
