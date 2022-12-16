@@ -1,3 +1,4 @@
+// @wzm 2022-12-16
 import isSymbol from '../isSymbol.js'
 
 /** Used as references for various `Number` constants. */
