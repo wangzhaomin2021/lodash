@@ -1,3 +1,4 @@
+// @wzm 2022-12-16
 /**
  * Gets the size of an ASCII `string`.
  *
