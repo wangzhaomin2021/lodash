@@ -1,3 +1,4 @@
+// @wzm 2022-12-16
 import asciiSize from './asciiSize.js'
 import hasUnicode from './hasUnicode.js'
 import unicodeSize from './unicodeSize.js'
