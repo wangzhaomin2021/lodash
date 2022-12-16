@@ -23,7 +23,7 @@ function repeat(string, n) {
   if (!string || n < 1 || n > Number.MAX_SAFE_INTEGER) {
     return result
   }
-  // Leverage the exponentiation by squaring algorithm for a faster repeat.
+  // Leverage the exponentiation by squaring algorithm for a faster repeat.             更快的重复算法
   // See https://en.wikipedia.org/wiki/Exponentiation_by_squaring for more details.
   do {
     if (n % 2) {
