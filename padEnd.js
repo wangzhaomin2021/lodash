@@ -1,3 +1,4 @@
+// @wzm 2022-12-16
 import createPadding from './.internal/createPadding.js'
 import stringSize from './.internal/stringSize.js'
 
