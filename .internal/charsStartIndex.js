@@ -1,3 +1,4 @@
+// @wzm 2022-12-17
 import baseIndexOf from './baseIndexOf.js'
 
 /**
