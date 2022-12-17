@@ -22,3 +22,17 @@ function baseFindIndex(array, predicate, fromIndex, fromRight) {
 }
 
 export default baseFindIndex
+
+/*
+function compare(v1, v2) {
+	return Number.isNaN(v1) ? Number.isNaN(v2) : v1 === v2
+}
+
+function findIndex(arr, value, fromIndex = 0, fromRight = false) {
+	let start = fromIndex + (fromRight ? 1 : -1)
+	while (fromRight ? start-- : ++start < arr.length) {
+		if (compare(arr[start], value)) return start
+	}
+	return -1
+}
+*/
