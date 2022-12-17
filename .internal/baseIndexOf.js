@@ -1,3 +1,4 @@
+// @wzm 2022-12-17
 import baseFindIndex from './baseFindIndex.js'
 import baseIsNaN from './baseIsNaN.js'
 import strictIndexOf from './strictIndexOf.js'
