@@ -1,3 +1,4 @@
+// @wzm 2022-12-17
 import castSlice from './.internal/castSlice.js'
 import charsStartIndex from './.internal/charsStartIndex.js'
 import stringToArray from './.internal/stringToArray.js'
