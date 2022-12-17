@@ -1,6 +1,7 @@
 // @wzm 2022-12-16
 import slice from '../slice.js'
 
+
 /**
  * Casts `array` to a slice if it's needed.
  *
