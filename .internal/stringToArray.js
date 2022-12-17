@@ -1,3 +1,4 @@
+// @wzm 2022-12-17
 import asciiToArray from './asciiToArray.js'
 import hasUnicode from './hasUnicode.js'
 import unicodeToArray from './unicodeToArray.js'
