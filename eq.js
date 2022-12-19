@@ -1,3 +1,4 @@
+// @wzm 2022-12-19
 /**
  * Performs a
  * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
