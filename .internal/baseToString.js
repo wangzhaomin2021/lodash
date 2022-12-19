@@ -9,7 +9,7 @@ const symbolToString = Symbol.prototype.toString
 
 /**
  * The base implementation of `toString` which doesn't convert nullish
- * values to empty strings.
+ * values to empty strings. 
  *
  * @private
  * @param {*} value The value to process.
