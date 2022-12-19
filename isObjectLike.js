@@ -7,7 +7,7 @@
  * @category Lang
  * @param {*} value The value to check.
  * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
- * @example
+ * @example 
  *
  * isObjectLike({})
  * // => true
