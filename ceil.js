@@ -15,7 +15,7 @@ import createRound from './.internal/createRound.js'
  * // => 5
  *
  * ceil(6.004, 2)
- * // => 6.01
+ * // => 6.01 
  *
  * ceil(6040, -2)
  * // => 6100
