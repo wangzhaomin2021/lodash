@@ -1,3 +1,4 @@
+// @wzm 2022-12-19
 import isArrayLike from './isArrayLike.js'
 import isObjectLike from './isObjectLike.js'
 
