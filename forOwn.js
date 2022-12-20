@@ -1,3 +1,4 @@
+// @wzm 2022-12-20
 /**
  * Iterates over own enumerable string keyed properties of an object and
  * invokes `iteratee` for each property. The iteratee is invoked with three
