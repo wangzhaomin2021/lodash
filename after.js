@@ -26,6 +26,6 @@ function after(n, func) {
       return func.apply(this, args)
     }
   }
-}
+} 
 
 export default after
