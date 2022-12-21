@@ -1,3 +1,4 @@
+// @wzm 2022-12-21
 import isObjectLike from './isObjectLike.js'
 import isPlainObject from './isPlainObject.js'
 
