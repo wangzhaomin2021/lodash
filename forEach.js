@@ -1,3 +1,4 @@
+// @wzm 2022-12-21
 import arrayEach from './.internal/arrayEach.js'
 import baseEach from './.internal/baseEach.js'
 
