@@ -1,3 +1,4 @@
+// @wzm 2022-12-21
 import baseForOwn from './baseForOwn.js'
 import isArrayLike from '../isArrayLike.js'
 
@@ -21,7 +22,7 @@ function baseEach(collection, iteratee) {
   let index = -1
 
   while (++index < length) {
-    if (iteratee(iterable[index], index, iterable) === false) {
+    if (iteratee(iterable[index], index, iterable) === false) { // return false will break loop
       break
     }
   }
