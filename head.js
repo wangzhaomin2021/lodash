@@ -1,3 +1,4 @@
+// @wzm 2022-12-21
 /**
  * Gets the first element of `array`.
  *
