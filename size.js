@@ -1,3 +1,4 @@
+// @wzm 2022-12-22
 import getTag from './.internal/getTag.js'
 import isArrayLike from './isArrayLike.js'
 import isString from './isString.js'
