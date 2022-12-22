@@ -1,3 +1,4 @@
+// @wzm 2022-12-22
 /**
  * Checks `value` to determine whether a default value should be returned in
  * its place. The `defaultValue` is returned if `value` is `NaN`, `null`,
@@ -19,5 +20,7 @@
 function defaultTo(value, defaultValue) {
   return (value == null || value !== value) ? defaultValue : value
 }
+
+// value ?? defaultValue
 
 export default defaultTo
