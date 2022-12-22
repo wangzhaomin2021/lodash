@@ -1,3 +1,4 @@
+// @wzm 2022-12-22
 import baseIndexOf from './.internal/baseIndexOf.js'
 import toInteger from './toInteger.js'
 
