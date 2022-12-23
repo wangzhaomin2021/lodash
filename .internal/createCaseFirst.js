@@ -1,3 +1,4 @@
+// @wzm 2022-12-23
 import castSlice from './castSlice.js'
 import hasUnicode from './hasUnicode.js'
 import stringToArray from './stringToArray.js'
