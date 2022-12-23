@@ -1,3 +1,4 @@
+// @wzm 2022-12-23
 /** Built-in value references. */
 const propertyIsEnumerable = Object.prototype.propertyIsEnumerable
 
