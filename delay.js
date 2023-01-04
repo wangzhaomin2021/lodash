@@ -20,5 +20,5 @@ function delay(func, wait, ...args) {
   }
   return setTimeout(func, +wait || 0, ...args) // args会被作为参数传入func
 }
-
+ 
 export default delay
