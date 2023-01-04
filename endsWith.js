@@ -1,3 +1,4 @@
+// @wzm 2023-1-4
 /**
  * Checks if `string` ends with the given target string.
  *
