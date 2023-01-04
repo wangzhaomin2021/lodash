@@ -1,3 +1,4 @@
+// @wzm 2023-1-4
 /**
  * Creates an object that inherits from the `prototype` object. If a
  * `properties` object is given, its own enumerable string keyed properties
