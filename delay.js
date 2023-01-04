@@ -13,11 +13,12 @@
  * delay(text => console.log(text), 1000, 'later')
  * // => Logs 'later' after one second.
  */
+// @wzm 2023-1-4
 function delay(func, wait, ...args) {
   if (typeof func !== 'function') {
     throw new TypeError('Expected a function')
   }
-  return setTimeout(func, +wait || 0, ...args)
+  return setTimeout(func, +wait || 0, ...args) // args会被作为参数传入func
 }
 
 export default delay
