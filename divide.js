@@ -1,3 +1,4 @@
+// @wzm 2023-1-5
 import createMathOperation from './.internal/createMathOperation.js'
 
 /**
