@@ -1,3 +1,4 @@
+// @wzm 2023-1-9
 /**
  * Checks if `path` is a direct or inherited property of `object`.
  *
