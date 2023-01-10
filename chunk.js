@@ -33,6 +33,25 @@ function chunk(arr, size = 1) {
 	}
 	return array
 }
+
+function chunk2(arr, size = 1) {
+	if (size < 1) throw new Error('size cannot less than 1')
+	const res = [], _size = size
+	let ck = []
+	let i = 0
+	while(i < arr.length) {
+		if (size-- > 0) {
+			ck.push(arr[i])
+			i === arr.length - 1 && res.push(ck)
+		} else {
+			size = _size
+			res.push(ck)
+			i < arr.length && (ck = [arr[i]])
+		}
+		i++
+	}
+	return res
+}
 */
 function chunk(array, size = 1) {
   size = Math.max(toInteger(size), 0)
