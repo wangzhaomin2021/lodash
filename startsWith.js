@@ -1,3 +1,4 @@
+// @wzm 2023-1-10
 /**
  * Checks if `string` starts with the given target string.
  *
