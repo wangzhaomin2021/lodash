@@ -1,3 +1,4 @@
+// @wzm 2023-1-10
 import eq from './eq.js'
 
 /** Used for built-in method references. */
@@ -24,6 +25,25 @@ const hasOwnProperty = objectProto.hasOwnProperty
  *
  * defaults({ 'a': 1 }, { 'b': 2 }, { 'a': 3 })
  * // => { 'a': 1, 'b': 2 }
+ 
+ 
+ function defaults(obj, ...objs) {
+	objs.forEach(_obj => {
+		Object.keys(_obj).forEach(key => {
+			if (_obj.hasOwnProperty(key)) {
+				console.log(key, _obj[key])
+				if (key in obj) {
+					console.log('in', key)
+					// obj[key] = _obj[key]
+				} else {
+					obj[key] = _obj[key]
+				}
+			}
+		})
+	})
+	
+	return obj
+}
  */
 function defaults(object, ...sources) {
   object = Object(object)
