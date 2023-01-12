@@ -1,3 +1,4 @@
+// @wzm 2023-1-12
 /**
  * Iterates over properties of `object`, returning an array of all elements
  * `predicate` returns truthy for. The predicate is invoked with three
