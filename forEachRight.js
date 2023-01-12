@@ -1,3 +1,4 @@
+// @wzm 2023-1-12
 import arrayEachRight from './.internal/arrayEachRight.js'
 import baseEachRight from './.internal/baseEachRight.js'
 
