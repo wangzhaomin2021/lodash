@@ -1,3 +1,4 @@
+// @wzm 2023-1-12
 import baseForOwnRight from './baseForOwnRight.js'
 import isArrayLike from '../isArrayLike.js'
 
